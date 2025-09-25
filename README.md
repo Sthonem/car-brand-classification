@@ -88,3 +88,6 @@ img = tf.keras.utils.load_img("test_image.jpg", target_size=(380,380))
 x = tf.keras.utils.img_to_array(img)[None,...]
 pred = model.predict(x)
 print("Tahmin:", class_names[pred.argmax()])
+
+
+kaggle linki: https://www.kaggle.com/code/sthonem/akbank3
